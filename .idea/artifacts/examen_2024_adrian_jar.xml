@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="examen_2024_adrian:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/examen_2024_adrian_jar</output-path>
+    <root id="archive" name="examen_2024_adrian.jar">
+      <element id="module-output" name="examen_2024_adrian" />
+    </root>
+  </artifact>
+</component>
