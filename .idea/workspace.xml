@@ -7,9 +7,7 @@
     <list default="true" id="9b4dc78f-5fd7-41c2-bb9e-240126256af6" name="Changes" comment="examen mejorado">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/examen_2024/io/TicketsSoporte.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/examen_2024/io/TicketsSoporte.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/examen_2024/resources/tecnico.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/examen_2024/resources/tecnico.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/examen_2024/resources/tickets.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/examen_2024/resources/tickets.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/examen_2024/resources/usuarios.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/examen_2024/resources/usuarios.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/examen_2024/services/ServicioSoporte.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/examen_2024/services/ServicioSoporte.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +29,7 @@
 }</component>
   <component name="ProjectId" id="2g8t1SqrAgvo0y5HTiwlNgUM4Ea" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="false" id="Update" />
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">

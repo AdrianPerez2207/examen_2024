@@ -66,7 +66,7 @@ public class TicketsSoporte {
         List<TicketSoporte> tickets = Files.lines(fileTickets)
                 .map(str -> {
                     String[] cad = str.split(",");
-                    TicketSoporte ticket = new TicketSoporte(LocalDate.parse(cad[1]), LocalDate.parse(cad[2]),
+                    TicketSoporte ticket = new TicketSoporte(Long.parseLong(cad[0]),LocalDate.parse(cad[1]), LocalDate.parse(cad[2]),
                             TicketSoporte.Estado.valueOf(cad[3]), Integer.parseInt(cad[4]),
                             ss.findUsuarioById(Long.parseLong(cad[5])), ss.findTecnicoById(Long.parseLong(cad[6])), cad[7]);
                     return ticket;

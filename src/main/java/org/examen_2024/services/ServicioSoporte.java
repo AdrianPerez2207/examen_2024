@@ -66,6 +66,7 @@ public class ServicioSoporte {
                 .findFirst()
                 .orElseThrow();*/
         this.usuarios.remove(findUsuarioById(id));
+        this.tickets.removeIf(ticket -> ticket.getUsuarioSolicitante().getId().equals(id));
     }
 
     /**
@@ -87,6 +88,7 @@ public class ServicioSoporte {
                 .findFirst()
                 .orElseThrow();*/
         this.tecnicos.remove(findTecnicoById(id));
+        this.tickets.removeIf(ticket -> ticket.getTenicoAsignado().getId().equals(id));
 
         /*this.tecnicos.removeIf(tecnico -> {
             findTecnicoById(id);
@@ -280,6 +282,7 @@ public class ServicioSoporte {
         return tickets.stream()
                 .filter(ticket -> ticket.getTenicoAsignado() != null)
                 .map(TicketSoporte::getTenicoAsignado)
+                .distinct()
                 .collect(Collectors.groupingBy(Tecnico::getEspecialidad));
     }
 
@@ -364,7 +367,7 @@ public class ServicioSoporte {
     public Optional<TicketSoporte> getFirstTicketSolvedOneDay(){
 
         return tickets.stream()
-                .filter(ticket -> Period.between(ticket.getFechaCreacion(), ticket.getFehcaFinalizacion()).getDays() == 0)
+                .filter(ticket -> Period.between(ticket.getFechaCreacion(), ticket.getFehcaFinalizacion()).getDays() <= 1)
                 .findFirst();
     }
 
