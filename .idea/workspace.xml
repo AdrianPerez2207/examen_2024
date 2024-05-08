@@ -5,22 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9b4dc78f-5fd7-41c2-bb9e-240126256af6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/examen_2024/app/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/examen_2024/entities/Persona.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/examen_2024/entities/Tecnico.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/examen_2024/entities/TicketSoporte.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/examen_2024/entities/Usuario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/examen_2024/io/TicketsSoporte.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/examen_2024/resources/tecnico.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/examen_2024/resources/tickets.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/examen_2024/resources/usuarios.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/examen_2024/services/ServicioSoporte.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/examen_2024/app/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/examen_2024/app/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/examen_2024/io/TicketsSoporte.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/examen_2024/io/TicketsSoporte.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,15 +37,19 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.App.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/adria/IdeaProjects/examen_2024",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Artifacts",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",
@@ -70,6 +61,13 @@
       <recent name="$PROJECT_DIR$/src/main/java/org/examen_2024/resources" />
     </key>
   </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-4f524021" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -80,6 +78,7 @@
       <updated>1715090817805</updated>
       <workItem from="1715090818859" duration="13582000" />
       <workItem from="1715104428778" duration="4200000" />
+      <workItem from="1715155703050" duration="972000" />
     </task>
     <servers />
   </component>

@@ -16,7 +16,7 @@ public class App {
 
         System.out.println("----Elige una opción: -----");
         System.out.println("1. Listar todos los tickets abiertos.");
-        System.out.println("2. 2. Listar técnicos agrupados por especialidad.");
+        System.out.println("2. Listar técnicos agrupados por especialidad.");
         System.out.println("3. Mostrar el total de tickets resueltos.");
         System.out.println("4. Mostrar la media de resolución de tickets pidiendo la prioridad de los tickets.");
         System.out.println("5. Insertar ticket soporte: que pida todos los datos y lo inserte en BD.");

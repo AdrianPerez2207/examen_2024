@@ -24,9 +24,9 @@ public class TicketsSoporte {
          * Leemos todos los ficheros
          */
 
-        Path fileUsuarios = Paths.get("examen_2024_adrian", "src", "main", "java", "org.examen_2024", "resources", "usuarios.csv");
-        Path fileTecnicos = Paths.get("examen_2024_adrian", "src", "main", "java", "org.examen_2024", "resources", "tecnico.csv");
-        Path fileTickets = Paths.get("examen_2024_adrian", "src", "main", "java", "org.examen_2024", "resources", "tickets.csv");
+        Path fileUsuarios = Paths.get(".","src", "main", "java", "org","examen_2024", "resources", "usuarios.csv");
+        Path fileTecnicos = Paths.get(".","src", "main", "java", "org","examen_2024", "resources", "tecnico.csv");
+        Path fileTickets = Paths.get(".","src", "main", "java", "org","examen_2024", "resources", "tickets.csv");
 
         /**
          * Creamos el objeto servicioSoporte
